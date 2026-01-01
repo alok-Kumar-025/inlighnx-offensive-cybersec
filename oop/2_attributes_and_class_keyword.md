@@ -11,7 +11,7 @@ Every object created from a class can store its own **data**, called **attribute
 
 ### 💡 Example: Simple Recon Tool
 
-```
+```python
 class ReconTool:
     # Class attribute (shared by all instances)
     tool_type = "Recon"
