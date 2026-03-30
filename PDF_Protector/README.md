@@ -38,6 +38,7 @@ pip install -r requirements.txt
 
 
 🛠️ Usage & CLI Flags
+
 The tool is designed to be used directly from the terminal.
 
 Basic Command Structure:
@@ -63,16 +64,18 @@ python pdf_protector.py ID_card.jpg -o secure_vault.pdf
 ```bash
 python pdf_protector.py data_report.pdf -p Secure@2026!
 ```
-🛡️ Security Architecture
-Input Parsing: Validates file existence and extension via argparse.
+**🛡️ Security Architecture**
 
-Conversion: Converts image buffers to PDF using img2pdf without losing quality.
+**Input Parsing:** Validates file existence and extension via argparse.
 
-Encryption: Applies AES-128 encryption layers using PyPDF2.
+**Conversion:** Converts image buffers to PDF using img2pdf without losing quality.
 
-Hashing: Implements a post-processing SHA-256 check for forensic integrity.
+**Encryption:** Applies AES-128 encryption layers using PyPDF2.
+
+**Hashing:** Implements a post-processing SHA-256 check for forensic integrity.
 
 Author
-Alok Kumar Cybersecurity Practitioner & MScIS Student
 
-Disclaimer: This tool is intended for educational and professional security use cases. Ensure you follow organizational policies when handling sensitive data.
+**Alok Kumar** Cybersecurity Practitioner & MScIS Student
+
+**Disclaimer: This tool is intended for educational and professional security use cases. Ensure you follow organizational policies when handling sensitive data**.
