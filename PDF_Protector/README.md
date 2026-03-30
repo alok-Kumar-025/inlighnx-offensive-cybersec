@@ -1,13 +1,18 @@
 # 🛡️ Advanced PDF Protector & Integrity Vault
 
-Ek professional Command-Line Interface (CLI) tool jo aapki PDFs aur Images ko high-level encryption (AES-128) ke saath secure karta hai aur unki integrity (SHA-256) verify karta hai.
+🛡️ PDF Security Vault & Integrity Tool (v2.0)
+A professional Command-Line Interface (CLI) tool designed to secure your documents using AES-128 encryption and verify file integrity with SHA-256 hashing.
 
-## ✨ Features
-- **Multi-Format Support:** Direct PDF ya Images (.jpg, .png, .jpeg) ko secure PDF mein convert aur lock karein.
-- **Strong Password Policy:** Base-level security ke liye 8+ characters, numbers aur symbols ka hona zaroori hai.
-- **Integrity Verification:** Har secured file ka ek unique SHA-256 hash generate hota hai taaki file tamper-proof rahe.
-- **Smart CLI Flags:** `-o` flag se custom output name dein, varna ye automatically `output/` folder bana kar file save kar dega.
-- **Timestamping:** Har transaction ka exact time record hota hai.
+✨ Key Features
+Multi-Format Support: Seamlessly convert and lock both PDF documents and images (.jpg, .png, .jpeg) into a single secured PDF.
+
+Robust Password Policy: Enforces high-level security requiring a minimum of 8+ characters, including numbers and special symbols.
+
+Integrity Verification: Generates a unique SHA-256 digital fingerprint for every secured file to ensure it remains tamper-proof.
+
+Smart CLI Flags: Supports the -o flag for custom output naming; otherwise, it automatically organizes files into an output/ directory.
+
+Audit Logging: Every operation is recorded with an exact timestamp for forensic tracking.
 
 ## 📁 Project Structure
 ```text
