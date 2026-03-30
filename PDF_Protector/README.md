@@ -42,14 +42,13 @@ pip install -r requirements.txt
 The tool is designed to be used directly from the terminal.
 
 Basic Command Structure:
-python pdf_protector.py [input_file] [flags]
 
+View All Options & Flags:
+To see all available flags, descriptions, and use cases directly in your terminal, run:
 
-Flag,Full Form,Description
--h,--help,Show professional help menu and examples.
--o,--output,Specify a custom name for the secured file.
--p,--password,"Set a password via CLI (Enforces 8+ chars, 1 Num, 1 Symbol)."
-
+```bash
+python pdf_protector.py --help
+```
 
 Practical Examples:
 1. Default Protection (Saves to 'output/' folder):
