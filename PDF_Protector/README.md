@@ -1,22 +1,28 @@
-# 🛡️ Advanced PDF Protector & Integrity Vault
+# 𝓟𝓓𝓕 𝓟𝓡𝓞𝓣𝓔𝓒𝓣𝓞𝓡 v2.0
+> **Advanced PDF Security Vault & Integrity Verification Tool**
 
-🛡️ PDF Security Vault & Integrity Tool (v2.0)
-A professional Command-Line Interface (CLI) tool designed to secure your documents using AES-128 encryption and verify file integrity with SHA-256 hashing.
+A professional Command-Line Interface (CLI) tool designed to secure your documents using **AES-128 encryption** and verify file integrity with **SHA-256 hashing**. Developed as part of the Offensive Cybersecurity Internship at InLighnX Global.
 
-✨ Key Features
-Multi-Format Support: Seamlessly convert and lock both PDF documents and images (.jpg, .png, .jpeg) into a single secured PDF.
+---
 
-Robust Password Policy: Enforces high-level security requiring a minimum of 8+ characters, including numbers and special symbols.
+## ✨ Key Features
 
-Integrity Verification: Generates a unique SHA-256 digital fingerprint for every secured file to ensure it remains tamper-proof.
+* **🛡️ High-Level Encryption:** Uses AES-128 bit encryption to password-protect sensitive documents.
+* **🖼️ Multi-Format Support:** Convert and secure images (`.jpg`, `.png`, `.jpeg`) or existing PDFs seamlessly.
+* **🔑 Integrity Verification:** Generates a unique **SHA-256 Digital Fingerprint** for every secured file to ensure it remains tamper-proof.
+* **⚙️ Smart CLI Flags:** Support for `-o` (custom output) and `-p` (direct password) for automated workflows.
+* **📂 Auto-Directory Management:** Automatically creates an `output/` folder if no custom path is specified.
+* **⏰ Audit Logging:** Every operation is recorded with an exact timestamp for forensic tracking.
 
-Smart CLI Flags: Supports the -o flag for custom output naming; otherwise, it automatically organizes files into an output/ directory.
+---
 
-Audit Logging: Every operation is recorded with an exact timestamp for forensic tracking.
+## 🚀 Getting Started (Installation)
 
-## 📁 Project Structure
-```text
-PDF_Protector/
-├── pdf_protector.py       # Main Logic & CLI Interface
-├── requirements.txt       # Dependencies (PyPDF2, img2pdf)
-└── README.md              # Project Documentation
+Follow these steps to set up the tool on your local machine:
+
+### 1. Prerequisites
+Ensure you have **Python 3.8+** installed. Check your version:
+```bash
+python --version
+```
+2. Clone & Setup
