@@ -28,7 +28,7 @@ python --version
 2. Clone & Setup
 
 # Clone the repository
-git clone [https://github.com/alok-Kumar-025/inlighnx-offensive-cybersec.git](https://github.com/alok-Kumar-025/inlighnx-offensive-cybersec.git)
+git clone [https://github.com/alok-Kumar-025/inlighnx-offensive-cybersec.git](https://github.com/alok-Kumar-025/inlighnx-offensive-cybersec/tree/main/PDF_Protector)
 
 # Navigate to the project directory
 cd inlighnx-offensive-cybersec/PDF_Protector
