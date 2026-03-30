@@ -1,5 +1,5 @@
 # 𝓟𝓓𝓕 𝓟𝓡𝓞𝓣𝓔𝓒𝓣𝓞𝓡 v2.0
-> **Advanced PDF Security Vault & Integrity Verification Tool**
+> **Advanced PDF Security Vault**
 
 A professional Command-Line Interface (CLI) tool designed to secure your documents using **AES-128 encryption** and verify file integrity with **SHA-256 hashing**. Developed as part of the Offensive Cybersecurity Internship at InLighnX Global.
 
